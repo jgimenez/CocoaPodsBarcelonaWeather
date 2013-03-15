@@ -1,0 +1,21 @@
+
+SPEC CHECKSUMS: 
+  JTObjectMapping: 245b1123d0f0d7d0d6ff6537f9d23bbe0d108ddc
+  AFNetworking: 761a418233d280c1e0580bcb76ff9cb4c3073d17
+  WeatherLibrary: 7e91f17254b5dc7ebc920d23f520e1c559f3d512
+
+DEPENDENCIES: 
+- WeatherLibrary (from `https://github.com/jgimenez/CocoaPodsWeatherLibrary.git')
+
+COCOAPODS: 0.16.4
+
+EXTERNAL SOURCES: 
+  WeatherLibrary: 
+    :git: https://github.com/jgimenez/CocoaPodsWeatherLibrary.git
+
+PODS: 
+- AFNetworking (1.1.0)
+- JTObjectMapping (1.1)
+- WeatherLibrary (0.0.1): 
+  - AFNetworking
+  - JTObjectMapping
